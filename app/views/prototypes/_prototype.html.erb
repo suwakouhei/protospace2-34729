@@ -1,0 +1,10 @@
+<div class="card">
+  <%= link_to "プロトタイプの画像", prototype_path(prototype), class: :card__img %>
+  <div class="card__body">
+    <%= link_to "プロトタイプのタイトル", prototype_path(prototype), class: :card__title%>
+    <p class="card__summary">
+      <%= link_to "プロトタイプのキャッチコピー" ,root_path %>
+    </p>
+     <%= link_to "by プロトタイプの投稿者名", user_path(prototype.user), class: :card__user %>
+  </div>
+</div>
