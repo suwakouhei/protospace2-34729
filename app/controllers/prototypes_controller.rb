@@ -4,7 +4,6 @@ class PrototypesController < ApplicationController
 
 
   def index
-    @user = User.find(1)
     @prototypes = Prototype.all
   end
 
